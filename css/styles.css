@@ -1,0 +1,58 @@
+body {
+    ffont-family: 'Lato', sans-serif;
+    max-height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    padding: 35px 0;
+    background-color: gray;
+}
+
+.navbar__list {
+    display: block;
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+    font-size: 22px;
+}
+
+.navbar__list__item {
+    display: inline-block;
+    text-align: center;
+    padding: 0 60px;
+}  
+
+.navbar__list__item a {
+    text-decoration: none;
+    color: black;
+}  
+
+.navbar__list__item a:visited {
+    color: black;    
+}  
+
+.header {
+    height: 100vh;
+    background-color: black;
+}
+
+.header__banner {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: contain;
+    background-image: url('../images/logo\ 2/rcf-development_large\ ww.png');
+}
