@@ -4,16 +4,52 @@
     <link
       href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap"
       rel="stylesheet"
-    />
+    /> 
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+ 
     <link rel="stylesheet" type="text/css" href="css/flaticon.css" />
     <link type="text/css" rel="stylesheet" href="css/styles.css" />
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" />    
     <title>RCF Development</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
 
   <body>
+     <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            
+    <nav class="black">
+        <div class="nav-wrapper navbar__container">
+          <a href="#!" class="brand-logo"> 
+            <img
+              href="#"
+              src="images/logo 2/rcf-development_large ww.png"
+              alt=""
+              class="navbar__logo"
+            />
+         </a>
+         
+          <a href="#" data-target="mobile-menu" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#about">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="https://investors.rcfdevelopment.com/login">Login</a></li>
+            <li><a href="https://investors.rcfdevelopment.com">Explore Our Investments</a></li>
+          </ul>
+        </div>
+      </nav>
+    
+      <ul class="sidenav" id="mobile-menu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="https://investors.rcfdevelopment.com/login">Login</a></li>
+          <li><a href="mobile.html">Explore Our Investments</a></li>
+      </ul>
+              
+
     <!-- Navbar -->
-    <nav class="navbar" id="navbar">
+    <!-- <nav class="navbar" id="navbar">
       <img
         href="#"
         src="images/logo 2/rcf-development_large ww.png"
@@ -22,7 +58,7 @@
       />
       <ul class="navbar__list">
         <li class="navbar__list__item">
-          <a href="#" class="about-link">About</a>
+          <a href="#about" class="about-link">About</a>
         </li>
         <li class="navbar__list__item">
           <a href="#">Contact</a>
@@ -36,7 +72,7 @@
           >
         </li>
       </ul>
-    </nav>
+    </nav> -->
 
     <div class="header">
       <a class="background__image__link" href="#">
@@ -50,7 +86,7 @@
       <div class="header__banner"></div>
     </div>
     <!-- About Us -->
-    <div class="about">
+    <div class="about" id="about">
       <div class="about__container">
         <div class="about__image__container">
           <img class="about__image" src="images/about_image.png" />
@@ -80,11 +116,13 @@
               RCF Development provides investors access to a range of vetted, institutional-quality investments in commercial real estate.  By leveraging our experience and expertise across all aspects of development and management, investors can achieve greater portfolio diversification and the potential for higher returns.
               <br />
               <br />
-              We are privileged to partner with both institutional and individual investors.  If you are interested in learning more about our current offerings please create an account and peruse our projects in motion.  Thank you for considering RCF Developments for your investment needs.
+              We are privileged to partner with both institutional and individual investors.  If you are interested in learning more about our current offerings please create an account and peruse our projects in motion.  Thank you for considering RCF Development for your investment needs.
             </span>
           </span>
         </div>
       </div>
     </div>
+
+    <script src="js/script.js" ></script>
   </body>
 </html>
