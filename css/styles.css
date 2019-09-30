@@ -295,3 +295,76 @@ nav {
     font-weight: 600;
   }
 }
+
+.backgroud__contact{
+  display: flex;
+  padding: 7rem 0;
+  width: 100%;
+  background-color: #121212;
+  background-size: cover;
+  background-position: 0% 22%;
+}
+.backgroud__contact .row{
+  margin: auto;
+}
+
+.contact__header{
+  font-size: 2rem !important;
+}
+
+.contact__img {
+  display: block;
+  margin: -3.5rem -11rem;
+  width: 38rem;
+}
+
+input, textarea {
+  color: white;
+}
+
+/* label color */
+/* label focus color */
+.input-field input[type=text]:focus + label {
+  color: green !important;
+}
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid green !important;
+  box-shadow: 0 1px 0 0 #000 !important;
+}
+/* valid color */
+.input-field input[type=text].valid {
+  border-bottom: 1px solid green !important;
+  box-shadow: 0 1px 0 0 #000 !important;
+}
+/* invalid color */
+.input-field input[type=text].invalid {
+  border-bottom: 1px solid rgb(100, 3, 3) !important;
+  box-shadow: 0 1px 0 0 rgb(7, 1, 1) !important;
+}
+
+/* icon prefix focus color */
+.input-field .prefix.active {
+  color: green !important;
+}
+
+
+.input-field .prefix.active ~ label {
+  color: green !important;
+}
+
+.input-field :focus {
+  border-bottom: 1px solid green !important;
+  box-shadow: 0 1px 0 0 #000 !important;
+}
+.valid {
+  border-bottom: 1px solid green !important;
+  box-shadow: 0 1px 0 0 #000 !important;
+}
+
+.button__style{
+  background-color: green !important; 
+}
+
+.button__style:hover{
+  background-color: rgb(58, 150, 58);
+}
