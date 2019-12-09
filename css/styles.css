@@ -41,6 +41,27 @@ nav {
 
   }
 
+  .contact__img {
+    width: 32rem !important;
+    margin: 0 auto !important;
+  }
+
+}
+
+.mobile-textarea {
+  height: 5rem !important;
+}
+
+@media only screen and (max-width: 490px) {
+  .contact__img {
+    width: 20rem !important;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .contact__img {
+    width: 15rem !important;
+  }
 }
 
 .navbar__list {
